@@ -62,3 +62,7 @@ if (botaoProximo && botaoAnterior) {
     pauseCarousel();
   });
 }
+
+function contatos() {
+  alert('contatos: (99)999999999');
+}
