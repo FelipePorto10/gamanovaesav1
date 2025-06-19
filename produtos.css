@@ -1,166 +1,105 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #000;
-  margin: 0;
-  padding: 20px;
-  transition: background-color 0.3s, color 0.3s;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produtos</title>
+    <link rel="stylesheet" href="produtos.css" />
+<header>
+    <a href="index.html"><img id="imagem-botao" class="imglogo" src="logogamanovaes_branca.png" alt="Logo Gama Novaes" /></a>
+    <div class="search">
+      <input type="text" placeholder="Pesquise seu produto..." />
+    </div>
+    <div class="menu">
+  <a href="#">Contatos</a>
+  <div id="dark-mode-banner" class="modo-escuro-banner">
+    <img src="botao.png" alt="Alternar modo escuro" />
+  </div>
+</div>
+  </header>
+    <body>
+  <h1>Produtos</h1>
 
-h2 {
-  font-size: 22px;
-  margin-top: 30px;
-}
+  <div class="categoria">
+    <h2>🔨 Ferramentas</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/R.05759ec0bcfd52e55861ea932bbded4d?rik=37StnFZz8iS2pw&riu=http%3a%2f%2fi.mlcdn.com.br%2f1500x1500%2ffuradeira-de-impacto-560wblack-and-decker-tm500br-082466900.jpg&ehk=2KJ9vycX7WEyAQJM0fGw1bzzw3EcAIqOQPrFEWR64H4%3d&risl=&pid=ImgRaw&r=0" alt="Furadeira"/>
+        <p>Furadeira</p>
+        <span>R$ 200,00</span>
+        <a href="internos.html?id=1"><button>Comprar</button></a>
+        
+      </div>
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/R.3adc930de4c8300b4691a8213a30b446?rik=SjSErfEtYAlong&pid=ImgRaw&r=0" alt="Martelo"/>
+        <p>Martelo</p>
+        <span>R$ 50,00</span>
+        <a href="internos.html?id=2"><button>Comprar</button></a>
+        
+      </div>
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/R.a7d722396e7134101b9286627a1eb7b6?rik=M8YtmzsG26CgrQ&pid=ImgRaw&r=0" alt="Parafusadeira"/>
+        <p>Parafusadeira</p>
+        <span>R$ 180,00</span>
+        <a href="internos.html?id=3"><button>Comprar</button></a>
+      </div>
+    </div>
+  </div>
 
-header {
-  background-color: #f0f0f0;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: nowrap;
-}
+  <div class="categoria">
+    <h2>🎨 Tintas</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP.zUv_A2ESL-yAZOPZGk5FIQHaHa?r=0&rs=1&pid=ImgDetMain" alt="Tosta Acrílica"/>
+        <p>Tinta Acrílica</p>
+        <span>R$ 65,00</span>
+        <a href="internos.html?id=4"><button>Comprar</button></a>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP.PqO9qw49vqZ3K8K-SlXVKAHaHa?r=0&rs=1&pid=ImgDetMain" alt="Tinta Suvinil"/>
+        <p>Tinta Suvinil</p>
+        <span>R$ 116,00</span>
+        <a href="internos.html?id=5"><button>Comprar</button></a>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP._ZBHzAxM386lbIxa6W20BQHaHa?r=0&rs=1&pid=ImgDetMain" alt="Tinta Esmalte"/>
+        <p>Tinta Esmalte</p>
+        <span>R$ 32,00</span>
+       
+        <a href="internos.html?id=6"><button>Comprar</button></a>
+      
+      </div>
+    </div>
+  </div>
 
-.imglogo {
-  height: 50px;
-  margin-right: 20px;
-}
+  <div class="categoria">
+    <h2>🧱 Massas</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/R.a98e3a0e6114dab5c677f0b066456ca5?rik=22kzLmeMdtHtkQ&riu=http%3a%2f%2fimages.tcdn.com.br%2fimg%2fimg_prod%2f551909%2fcimento_zebu_saco_com_50_kg_a_vista_1321_1_a98e3a0e6114dab5c677f0b066456ca5.jpeg&ehk=xQCxqCGsrml1KU%2b%2fSuwj4PxhnvfkMThdga1PL0frCZE%3d&risl=&pid=ImgRaw&r=0"/>
+        <p>Cimento zebu</p>
+        <span>R$ 28,00</span>
+        <a href="internos.html?id=7"><button>Comprar</button></a>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/R.3acbe6fc0ad346b20829802721b1dfaf?rik=4si25EBDB3fWOg&pid=ImgRaw&r=0" alt="Cimento Poty"/>
+        <p>Cimento Poty</p>
+        <span>R$ 25,00</span>
+        <a href="internos.html?id=8"><button>Comprar</button></a>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://padovani.vteximg.com.br/arquivos/ids/174066-1000-1000/Cimento-Todas-as-Obras-CPII-50Kg---Votoram-1.jpg?v=636905878354870000" alt="Cimento Psua"/>
+        <p>Cimento Votoran</p>
+        <span>R$ 29,00</span>
+          <a href="internos.html?id=9"><button>Comprar</button></a>
+      </div>
+    </div>
+  </div>
+    <script src="scripts.js"></script>
 
-.search {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.search input {
-  padding: 10px 600px;         
-  border: 1px solid #ccc;
-  border-radius: 8px;         
-  width: 400%;
-  max-width: 400px;          
-  font-size: 16px;            
-  transition: border-color 0.3s;
-}
-.menu {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.menu a {
-  font-weight: bold;
-  text-decoration: none;
-  color: inherit;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-
-.modo-escuro-banner img {
-  width: 30px;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.3);
-  cursor: pointer;
-}
-
-.categoria {
-  margin-bottom: 40px;
-}
-
-.categoria h2 {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.produtos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.produto {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  width: 150px;
-  padding: 15px;
-  text-align: center;
-  flex: 1 1 calc(33.33% - 30px);
-  transition: background-color 0.3s;
-}
-
-.produto img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  margin-bottom: 10px;
-}
-
-.produto p {
-  margin: 5px 0;
-  font-weight: bold;
-}
-
-.produto span {
-  display: block;
-  color: green;
-  margin-bottom: 10px;
-}
-
-.produto button {
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-body.dark-mode {
-  background-color: #2b0f0f;
-  color: white;
-}
-
-body.dark-mode header,
-body.dark-mode .produto {
-  background-color: #330d0d;
-}
-
-body.dark-mode .categoria {
-  background-color: #6b1b1b;
-}
-
-body.dark-mode .produtos {
-  background-color: #1b1b1b;
-}
-
-body.dark-mode .search input {
-  background-color: #1b1b1b;
-  color: white;
-  border: 1px solid #555;
-}
-
-body.dark-mode .menu a {
-  color: white;
-}
-
-@media (max-width: 600px) {
-  .produto {
-    flex: 1 1 100%;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .menu {
-    margin-top: 100px;
-  }
-
-  .imglogo {
-    margin-bottom: 10px;
-  }
-}
+</body>
+</html>
